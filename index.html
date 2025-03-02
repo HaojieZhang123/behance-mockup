@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Behance mockup</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="d-flex">
+        <div class="col-50 d-flex align-center justify-left">
+            <!-- logo -->
+            <div class="logo">
+                <img class="big-logo" src="./img/behance.svg" alt="Behance logo">
+                <img class="small-logo" src="./img/behance-icon.png" alt="">
+            </div>
+            <ul class="left-header-nav header-nav d-flex align-center justify-left">
+                <!-- Navigation item -->
+                <li class="position-relative">
+                    <a href="#">
+                        Esplora <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
+                    </a>
+                    <!-- Dropdown menu Esplora -->
+                    <div class="nav-menu bg-white">
+                        <ul class="bold padding-10">
+                            <li><a href="#">Cerca ed esplora</a></li>
+                            <li><a href="#">Risorse</a></li>
+                            <li><a href="#">Gallerie amministrate</a></li>
+                        </ul>
+                        <hr class="nav-menu-divider">
+                        <ul class="grey-text padding-10">
+                            <li><a href="#">Il meglio di Behance</a></li>
+                            <li><a href="#">Progettazione grafica</a></li>
+                            <li><a href="#">Illustrazione</a></li>
+                            <li><a href="#">Fotografia</a></li>
+                            <li><a href="#">UI/UX</a></li>
+                            <li><a href="#">Arte 3D</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        Posizioni
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Behance Pro
+                    </a>
+                </li>
+                <!-- Separation line -->
+                <li>|</li>
+                <!-- Navigation item -->
+                <li class="position-relative">
+                    <a href="#">
+                        Assumi Freelance <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>
+                    </a>
+                    <!-- Dropdown menu Freelance -->
+                    <div class="nav-menu bg-white">
+                        <ul class="bold padding-10">
+                            <li><a href="#"><i class="grey-text fa-regular fa-file"></i> I miei progetti freelance</a></li>
+                            <li><a href="#"><i class="grey-text fa-solid fa-magnifying-glass"></i> Trova creativi</a></li>
+                            <li><a href="#"><i class="grey-text fa-regular fa-circle-check"></i> Assumi su Behance</a></li>
+                            <li><a href="#"><i class="grey-text fa-regular fa-square-plus"></i> Nuovo progetto freelance</a></li>
+                        </ul>
+                        <hr class="nav-menu-divider">
+                        <ul class="grey-text padding-10">
+                            <li><a href="#">Designer di loghi</a></li>
+                            <li><a href="#">Progettisti del marchio</a></li>
+                            <li><a href="#">Progettisti di siti web</a></li>
+                            <li><a href="#">Illustratori</a></li>
+                            <li><a href="#">Progettisti di Social media</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-50 d-flex align-center justify-right">
+            <!-- Notification button -->
+            <div class="primary-nav-notification">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <ul class="header-nav d-flex  align-center">
+                <!-- login and sign up -->
+                <li>
+                    <a href="#">
+                        <div class="login-button button blue-text">
+                            Accedi
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="registration-button button white-text bg-blue">
+                            Registrati
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!-- Adobe logo -->
+            <div class="logo-right">
+                <a href="#">
+                    <img class="big-logo" src="./img/adobe-full-logo.png" alt="Adobe logo">
+                    <img class="small-logo" src="./img/adobe-logo.png" alt="">
+                </a>
+                <!-- Dropdown menu Adobe -->
+                
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="jumbo col-100">
+            <div class="content jumbo-content text-center d-flex justify-center align-center flex-wrap">
+                <h1 class="col-100">
+                    I <br><span class="blue-text">migliori creatori</span> <br>del mondo sono su Behance
+                </h1>
+
+                <p class="col-80 grey-text">
+                    Una piattaforma completa per aiutare i datori di lavoro e i creatori a orientarsi nel mondo creativo, dalla scoperta dell'ispirazione al collegamento tra loro
+                </p>
+
+                <div class="col-30 d-flex justify-around padding-y20">
+                    <a href="#">
+                        <div class="blue-button button inline-block bg-blue white-text bold padding-10">
+                            Assumi un freelance
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="white-button button inline-block bg-white black-text bold padding-10">
+                            Prova Behance Pro
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Search bar -->
+        <div id="search-bar">
+
+            <div class="page-container d-flex align-center justify-between">
+                <!-- Filter button -->
+                <div class="col-10">
+                    <div class="white-button button bg-white">
+                        <i class="fa-solid fa-sliders"></i>
+                        Filtro
+                    </div>
+                </div>
+    
+                <!-- Search input -->
+                <div class="search-input col-80 d-flex align-center justify-between bg-lightgrey">
+                    <!-- Search icon -->
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <!-- Search input field -->
+                    <input class="bg-transparent black-text" type="text" placeholder="Cerca il mondo creativo al lavoro">
+                    <!-- Image search button -->
+                    <div class="white-button search-button bg-white">
+                        <span class="darkgrey-text"><i class="fa-regular fa-image"></i></span>
+                        Cerca per immagine
+                    </div>
+                </div>
+    
+                <!-- Sort button -->
+                <div class="col-10">
+                    <div class="white-button button">
+                        Suggerita <i class="fa-solid fa-sort-down"></i>
+    
+                        <!-- Sort dropdown menu -->
+                        <div class="dropdown">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Search content -->
+        <div class="content">
+            <div>
+    
+                <div class="page-container">
+                    <!-- Result count and filters applied -->
+                    <div id="filter-results" class="d-flex align-center justify-between padding-y20">
+                        <div>
+                            10.000+ risultati
+                        </div>
+                        <div>
+                            <a href="#">Cancella tutti i filtri</a>
+                        </div>
+                    </div>
+        
+                    <!-- Cards -->
+                    <div class="d-flex align-paragraph">
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=1" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=2" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=3" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=4" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=5" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=6" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=7" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=8" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=9" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=1" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=2" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Single card -->
+                        <div class="card-col">
+                            <div class="card position-relative">
+                                <div class="card-image">
+                                    <img src="https://picsum.photos/320/250?random=3" alt="">
+                                </div>
+                                <div class="hover-shadow position-absolute">
+                                    <!-- Save button -->
+                                    <div class="save button white-text bold bg-darkgrey inline-block">
+                                        <i class="fa-regular fa-folder-open"></i>
+                                        Save
+                                    </div>
+                                    <!-- Labels -->
+                                    <div class="label-box position-absolute">
+                                        <div class="label bg-darkred inline-block orange-text bold">Ai</div>
+                                        <div class="label bg-gold inline-block white-text bold">Gr</div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card-info d-flex justify-between">
+                                <div class="col-70">
+                                    <div class="card-title bold">Identidade Queijara Santa Vitoria</div>
+                                    <div class="card-author">Pi&ugrave; proprietari</div>
+                                </div>
+                                <div class="col-30 card-stat d-flex justify-around grey-text">
+                                    <!-- likes -->
+                                    <div class="likes inline-block">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span>58</span>
+                                    </div>
+                                    <!-- views -->
+                                    <div class="views inline-block">
+                                        <span><i class="fa-regular fa-eye"></i></span>
+                                        <span>186</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+        
+                <!-- Registration bar -->
+                <div id="registration-bar" class="d-flex align-center justify-center flex-wrap padding-y20">
+                    <div class="col-100 text-center bold padding-y20">
+                        <a href="#">Registrati</a> o <a href="#">Accedi</a> al tuo account per visualizzare pi&ugrave; lavori personalizzati alle tue preferenze.
+                    </div>
+        
+                    <!-- Registration button -->
+                    <div class="col-30 d-flex justify-between">
+                        <a href="#">
+                            <div class="registration-button button white-text bold bg-blue text-center">
+                                Accedi con l'email
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="circle bg-white text-center">
+                                <i class="fa-brands fa-apple"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="circle bg-facebook-blue white-text text-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="circle bg-white text-center">
+                                <i class="fa-brands fa-google"></i>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <!-- Pro version upsell banner -->
+        <div class="upsell-banner">
+            <img src="./img/upsell-banner-border.webp" alt="">
+            <div class="page-container upsellbanner-text text-center padding-y10">
+                <span><strong>Aggiorna a Behance Pro oggi:</strong> ottieni analisi avanzate, un sito Web Portfolio personalizzato e altre funzionalità per far crescere la tua carriera creativa.</span>
+                <a href="#">Attiva la versione di prova gratuita di 7 giorni</a>
+            </div>
+        </div>
+
+        <!-- Static Footer -->
+        <div class="static-footer d-flex align-paragraph">
+            <div class="footer-logo col-30">
+                <img src="./img/behance-logo-white.png" alt="Behance logo">
+            </div>
+
+            <div class="footer-section-container flex-grow">
+                <div class="footer-section">
+                    <div class="footer-section-title bold">Creato per creativi</div>
+                    <ul>
+                        <li><a href="#">Prova Behance Pro</a></li>
+                        <li><a href="#">Trova l'ispirazione</a></li>
+                        <li><a href="#">Fatti assumere</a></li>
+                        <li><a href="#">Cendita risorse creative</a></li>
+                        <li><a href="#">Vendi servizi Freelance</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-section-container flex-grow">
+                <div class="footer-section">
+                    <div class="footer-section-title bold">Trova talenti</div>
+                    <ul>
+                        <li><a href="#">Pubblica il tuo lavoro</a></li>
+                        <li><a href="#">Designer di progettazione grafica</a></li>
+                        <li><a href="#">Fotografi</a></li>
+                        <li><a href="#">Editor video</a></li>
+                        <li><a href="#">Progetiitsi web</a></li>
+                        <li><a href="#">Illustratori</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-section-container flex-grow">
+                <div class="footer-section">
+                    <div class="footer-section-title bold">Behance</div>
+                    <ul>
+                        <li><a href="#">Informazioni su Behance</a></li>
+                        <li><a href="#">Adobe portfolio</a></li>
+                        <li><a href="#">Scarica l'App</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Opportunit&agrave; in Behance</a></li>
+                        <li><a href="#">Centro risorse</a></li>
+                        <li><a href="#">Contattaci</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-section-container flex-grow">
+                <div class="footer-section">
+                    <div class="footer-section-title bold">Social</div>
+                    <ul>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i> 
+                            <a href="#">
+                                Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-twitter"></i> 
+                            <a href="#">
+                                Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-pinterest"></i> 
+                            <a href="#">
+                                Pinterest
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-facebook"></i> 
+                            <a href="#">
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-linkedin"></i> 
+                            <a href="#">
+                                LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="bottom-footer d-flex flex-wrap">
+            <hr class="col-100">
+
+            <div class="col-100 d-flex justify-between">
+                <div class="footer-adobe-info d-flex align-center">
+                    <div class="adobe-logo">
+                        <img src="./img/adobe-full-logo-white.png" alt="">
+                    </div>
+                    <div class="allRightsReserved">
+                        &copy; 2025 Adobe Inc. All rights reserved.
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Italiano</a></li>
+                        <li><a href="#">TOU</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Impostazioni sui cookie</a></li>
+                        <li><a href="#">Non vendere o condividere le mie informazioni personali</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

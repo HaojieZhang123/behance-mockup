@@ -595,6 +595,16 @@ footer a:hover{
         display: none;
     }
 
+    #filter-button{
+        display: none;
+    }
+    .search-input{
+        width: 100%;
+    }
+    #sort-button{
+        display: none;
+    }
+
     .card-col{
         width: 45%;
     }
